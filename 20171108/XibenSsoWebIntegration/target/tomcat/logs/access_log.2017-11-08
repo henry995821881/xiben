@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:13:56:48 +0800] "GET /page1 HTTP/1.1" 302 - http-bio-8686-exec-1 1155
+0:0:0:0:0:0:0:1 - - [08/Nov/2017:13:57:06 +0800] "GET /page1?organization_code=454d52c409114098abfd7e7d62b75393&sign=MCwCFEOYExZvr8iLUmvsbmfDILCVkdzzAhRLJH2cCKYIyXzDG4lFFy4G7zWtOw&username=admin HTTP/1.1" 200 265 http-bio-8686-exec-2 1365

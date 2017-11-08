@@ -1,0 +1,5 @@
+[11:20:49:567] [ERROR] - com.xiben.sso.site.web.LoginController.checkLogin(LoginController.java:137) - 登录失败--图片验证码
+[11:21:03:647] [ERROR] - com.xiben.sso.site.web.LoginController.checkLogin(LoginController.java:137) - 登录失败--图片验证码
+[11:21:14:622] [ERROR] - com.xiben.sso.site.web.LoginController.checkLogin(LoginController.java:137) - 登录失败--图片验证码
+[11:22:10:199] [ERROR] - com.xiben.sso.site.web.LoginController.checkLogin(LoginController.java:137) - 登录失败--图片验证码
+[11:24:47:704] [ERROR] - com.xiben.sso.site.web.LoginController.checkLogin(LoginController.java:137) - 登录失败--图片验证码
