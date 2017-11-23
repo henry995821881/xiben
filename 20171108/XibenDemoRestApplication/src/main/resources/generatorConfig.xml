@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <!--<classPathEntry  location="C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar"/>-->
+  <classPathEntry  location="src/main/resources/mysql-connector-java-5.1.36.jar"/>
+  <context id="context1" >
+
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://192.168.11.155:3306/pm" userId="root" password="111111" />
+    <javaModelGenerator targetPackage="com.xiben.pm.ar.pojo" targetProject="src/main/java" />
+    <sqlMapGenerator targetPackage="com.xiben.pm.ar.mapper" targetProject="src/main/java" />
+    <javaClientGenerator targetPackage="com.xiben.pm.ar.mapper" targetProject="src/main/java" type="XMLMAPPER" />
+    <!--<table tableName="ar_archive"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <!--<table tableName="ar_archive_readapply"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <!--<table tableName="ar_archive_readrecord"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <!--<table tableName="ar_archive_sequence"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <!--<table tableName="wf_instance"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <table tableName="ar_archive_secretapproveuser"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>
+    <!--<table tableName="wf_instance_node_approve_user"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <!--<table tableName="wf_instance_node_approvepart"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <!--<table tableName="wf_template"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <!--<table tableName="wf_template_node"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <!--<table tableName="wf_template_node_approve_user"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+    <!--<table tableName="wf_template_node_approvepart"  enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
+  </context>
+</generatorConfiguration>

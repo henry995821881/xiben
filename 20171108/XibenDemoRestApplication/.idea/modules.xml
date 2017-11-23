@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../xibencomm/XibenCommon/A.iml" filepath="$PROJECT_DIR$/../../../xibencomm/XibenCommon/A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rest.iml" filepath="$PROJECT_DIR$/Rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../XibenUaasDelegate1.0/SsoClient.iml" filepath="$PROJECT_DIR$/../XibenUaasDelegate1.0/SsoClient.iml" />
+    </modules>
+  </component>
+</project>
